@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1 span class="pleca">SHADOW</h1>
+    <p>¿Qué quieres hacer?</p>
+    <div class="btns">
+      <div class="btn-izq">
+        <button class="btn" type="button" onclick="location.href='codificar.html'" id="buttonCod">Codificar</button>
+      </div>
+      <div class="btn-der">
+        <button class="btn" type="button">Descodificar</button>
+      </div>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <button class="ayuda" type="button">?</button>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

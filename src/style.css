@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body,h1 {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+
+@font-face {
+  font-family: "Cherry Swash", cursive;
+
+}
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+	font-family: Cherry Swash;
+	font-weight: bold;
+	font-size: 3rem;
+	color: white;
+
+}
+
+h1.pleca{
+	background-color:#069FA9;
+	padding:8px ;
+	text-align: center;
+}
+
+h2{
+	font-family: Roboto ;
+	font-weight: bold;
+	font-size: 2rem;
+
+
+}
+
+p{
+	font-family: Roboto ;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+
+}
+p.txt-msj{
+    font-family: Roboto ;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+p.help{
+	font-family: Roboto ;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: -20px;
+	text-align: justify;
+}
+
+
+/*divs*/
+.btns {
+	overflow:hidden;
+	padding: 80px;
+}
+.btns2 {
+	overflow:hidden;
+	text-align: auto;
+	padding: 20px;
+}
+
+.btn-izq{
+float: left;
+}
+
+.btn-der{
+	float: right;
+}
+
+.btn-der-cod{
+	float: right;
+	margin-top: -48px;
+}
+
+.centrado{
+	overflow:auto;
+	padding:0px 100px;
+
+}
+.centrado-2{
+	overflow:auto;
+	padding:40px 100px;
+
+}
+/*botones*/
+.btn {
+	font-family: Roboto ;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 15px 30px;
+	border: 3px solid #069FA9;
+	border-radius:10px;
+
+}
+
+.regresar{
+	float:  inherit;
+}
+
+.ayuda{
+	font-family: Roboto ;
+	color: white;
+	font-weight: bold;
+	font-size: 2rem;
+	 width: : 60px;
+   height: 60px;
+   border-radius: 50%;
+   float: right;
+	 background-color: #069FA9;
+
+}
