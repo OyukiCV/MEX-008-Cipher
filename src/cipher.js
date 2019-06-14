@@ -1,5 +1,12 @@
 window.cipher = {
-//encore.
+//encode: (offset, mensaje) =>{
+//dentro va la funcion de encriptar
+//} 
+
+
+//intento de codigo
+let cifrarMensaje = "";
+
 //function cifrarMensaje() {
 
 //  console.log()
