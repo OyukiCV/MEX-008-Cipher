@@ -8,12 +8,12 @@ body,h1 {
 }
 
 @font-face {
-  font-family: "Cherry Swash", cursive;
+  font-family: "Cherry Swash";
 
 }
 
 @font-face{
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto";
 }
 
 
@@ -56,23 +56,30 @@ p.txt-msj{
 
 p.help{
 	font-family: Roboto ;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: -20px;
 	text-align: justify;
 }
 
+li.help{
+	font-family: Roboto ;
+	font-size: 1.2rem;
+	font-weight: bold;
+	
+	text-align: justify;
+}
 
 /*divs*/
 .btns {
 	overflow:hidden;
 	padding: 80px;
 }
-.btns2 {
+/*.btns2 {
 	overflow:hidden;
 	text-align: auto;
 	padding: 20px;
-}
+}*/
 
 .btn-izq{
 float: left;
@@ -85,6 +92,11 @@ float: left;
 .btn-der-cod{
 	float: right;
 	margin-top: -48px;
+}
+
+.btn-decod{
+	float:  inherit;
+	margin-top: 40px;
 }
 
 .centrado{
@@ -111,6 +123,7 @@ float: left;
 
 .regresar{
 	float:  inherit;
+	margin-top: 40px;
 }
 
 .ayuda{
@@ -118,7 +131,7 @@ float: left;
 	color: white;
 	font-weight: bold;
 	font-size: 2rem;
-	 width: : 60px;
+	 width: 60px;
    height: 60px;
    border-radius: 50%;
    float: right;

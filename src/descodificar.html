@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Descodificar</title>
+			<link rel="stylesheet" href="style.css" />
+		</head>
+		<body>
+			<div id="root">
+				<h1 span class="pleca">SHADOW</h1>
+				<div class="centrado">
+					<p class="txt-msj">Introduce tu mensaje cifrado</p>
+
+					<input type="text"  id="msjCod2" style="width:400px;height:100px" ><!-- Caja de texto para escribir el mensaje -->
+				</div>
+
+			 	<div class="centrado-2">
+					 <p class="txt-msj">Clave</p>
+						<input type="number" id="offset"  min="1" max = "99"  placeholder="Introduce la clave"><!--introduce offset para el cifrado--->
+
+						<div class="btn-der-cod">
+							<button class="btn" type="button" id="buttonDcod">Descodificar</button> <!-- boton para decodificar -->
+						</div>
+					</div>
+				<div class="centrado-2">
+						<p class="txt-msj">Mensaje descodificado</p>
+						<input type="text"  style="width:400px;height:100px" id="msjDeco"><!--Caja de texto se muestra mensaje codficado--->
+
+
+
+							<button class="btn regresar" type="button" onclick="location.href='index.html'">Regresar</button>
+
+				</div>
+					</div>
+					<script src="index2.js"></script>
+					<script src="cipher.js"></script>
+
+				</body>
+			</html>

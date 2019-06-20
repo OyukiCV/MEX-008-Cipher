@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>Codificar</title>
 			<link rel="stylesheet" href="style.css" />
 		</head>
@@ -10,24 +11,31 @@
 				<h1 span class="pleca">SHADOW</h1>
 				<div class="centrado">
 					<p class="txt-msj">Introduce tu mensaje</p>
-					<input type="text" size=" 50" id="mensaje">
+
+					<input type="text"  id="msjIntrod" style="width:400px;height:100px" ><!-- Caja de texto para escribir el mensaje -->
 				</div>
 					<div class="centrado-2">
 						<p class="txt-msj">Clave</p>
-						<input type="text" id="offset">
+						<input type="number" id="offset"  min="1" max = "99"  placeholder="Elige un número"> <!--introduce offset para el cifrado--->
 
 						<div class="btn-der-cod">
-							<button class="btn" type="button" id="buttonCod">Codificar</button>
+							<button class="btn" type="button" id="buttonCod">Codificar</button> <!-- boton para codificar -->
 						</div>
 					</div>
 				<div class="centrado-2">
 						<p class="txt-msj">Mensaje codificado</p>
+						<input type="text"  id="msjCod" style="width:400px;height:100px" ><!--Caja de texto se muestra mensaje codficado--->
+
+
 
 							<button class="btn regresar" type="button" onclick="location.href='index.html'">Regresar</button>
 
 				</div>
 					</div>
-					<script src="cipher.js"></script>
 					<script src="index.js"></script>
+					<script src="cipher.js"></script>
+
 				</body>
 			</html>
+
+			<!--- ---->
